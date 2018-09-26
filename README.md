@@ -3,12 +3,12 @@ The Advanced Encryption Standard New Instruction (AES NI) Instructions is the in
 
 As these instructions are machine level instructions and as high level languages do not work with machine level instructions, it is not possible to use these six AES NI Instructions in such languages like JAVA, Python, etc. These AES NI Instructions are only available to be used in the C programming language. This is because, C programming language is considered as a middle level language, as it combines the functionality of a high level as well as a low level programming language i.e. we can do System programming as well as Application programming using C. Hence, we can use the wmmintrin.h header file, to implement all the six AES NI Instructions for AES algorithm.
 
-#Comparing performance of AES-NI Instructions 
+# Comparing performance of AES-NI Instructions 
 
 Here, two types of AES Encryption programs have been compared based on the Total Time taken by each of the programs to encrypt 1000 1-block messages. The major difference between the two programs compared here is the use of Intel’s AES NI (Advanced Encryption Standard New Instructions) instructions in one of them and using a high level cryptographic library in the other.
 In order to even further improve the accuracy of performance offered by both the programs, we will take an average of six attempts of running the same code, that is running each program to encrypt 1000 1-block message at least six times.
 
-#Program 1:
+# Program 1:
 Programming Language Used: C Programming
 
 Use of AES NI Instructions: YES
@@ -22,7 +22,7 @@ Attempt 5: 0.001785 seconds
 Attempt 6: 0.001825 seconds
 Hence, the Average Time Taken = (0.001952 + 0.001868 + 0.001813 + 0.001825 + 0.001785 + 0.001825) ÷ 6 = 0.001844 seconds
 
-#Program 2:
+# Program 2:
 Programming Language Used: Python
 
 Use of AES NI Instructions: NO
