@@ -1,1 +1,6 @@
 # AES-NI Encryption
+The Advanced Encryption Standard New Instruction (AES NI) Instructions is the instruction set designed by Intel to enable AES encryption algorithm to work along with the hardware. This can significantly improve the performance of the algorithm, as the amount of time required to encrypt and decrypt is reduced due to hardware acceleration. In total, Intel provides six AES NI instructions that are used for hardware accelerated AES. They are AESENC, AESENCLAST, AESDEC, AESDECLAST, AESIMC & AESKEYGENASSIST.
+
+As these instructions are machine level instructions and as high level languages do not work with machine level instructions, it is not possible to use these six AES NI Instructions in such languages like JAVA, Python, etc. These AES NI Instructions are only available to be used in the C programming language. This is because, C programming language is considered as a middle level language, as it combines the functionality of a high level as well as a low level programming language i.e. we can do System programming as well as Application programming using C. Hence, we can use the wmmintrin.h header file, to implement all the six AES NI Instructions for AES algorithm.
+
+
