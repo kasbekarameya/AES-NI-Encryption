@@ -23,7 +23,7 @@ Attempt 6: 0.001825 seconds
 Hence, the Average Time Taken = (0.001952 + 0.001868 + 0.001813 + 0.001825 + 0.001785 + 0.001825) ÷ 6 = 0.001844 seconds
 
 # Program 2:
-Programming Language Used: Python
+Programming Language Used: Java & Python
 
 Use of AES NI Instructions: NO
 
